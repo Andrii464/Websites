@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+body {
+font-family: "Lato";
+font-weight: 300;
+font-size: 16px;
+color: #555;
+
+-webkit-font-smoothing: antialliased;
+-webkit-overflow-scrolling: touch;
+
+margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+}
+	
+p{
+	margin-bottom: 23px;
+`	line-height: 28px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: #f89c37;
+}
+
+a:hover,a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background:#2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bolder;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+#headerwrap {
+	background: url(../images/menu.png) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 575px;
+	width: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 230px;
+	color: white;
+	font-size: 120px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	font-family: 'Caveat', cursive;
+	
+}
+
+/*_______________________*/
+.first img {
+  width: 100%;
+  
+}
+.first p {
+  margin-top: 3%;
+  font-size: 135%;
+  text-align: left;
+  font-weight: 200;
+  letter-spacing: 3px;
+  color: black;
+}
+.first h1  { 
+	font-size: 150%;
+	text-align: center;
+	width: 100%;
+	color: black;
+	letter-spacing: 3px;
+}
+/*_______________________*/
+.menu > ul > li {
+  width: 32.8%;
+  float:center;
+  display:inline-block; /* у стрічко-блочний */
+}
+.menu > ul > li h2 {
+	text-align: center;
+	letter-spacing: 1px;
+}
+.menu > ul > li p {
+	color: black;
+	text-align: center;
+	font-size: 120%;
+}
+/*_______________________*/
+.third img {
+  width: 100%;
+  margin-top: 5%;
+}
+.third p {
+  margin-top: 3%;
+  font-size: 135%;
+  text-align: left;
+  font-weight: 200;
+  letter-spacing: 3px;
+  color: black;
+}
+.third h1  { 
+	font-size: 160%;
+	text-align: center;
+	width: 100%;
+	color: black;
+	letter-spacing: 3px;
+}
+/*_______________________*/
+footer {
+   padding: 24px 0;
+}
+.foot {
+   margin-left: 6%;
+   font-size: 18px;
+   line-height: 10px;
+   color: #2d2d2d;
+   text-align: center;
+}

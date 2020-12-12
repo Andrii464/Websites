@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+body {
+font-family: "Lato";
+font-weight: 300;
+font-size: 16px;
+color: #555;
+
+-webkit-font-smoothing: antialliased;
+-webkit-overflow-scrolling: touch;
+
+margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+}
+	
+p{
+	margin-bottom: 23px;
+`	line-height: 28px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: #f89c37;
+}
+
+a:hover,a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background:#2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bolder;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+#headerwrap {
+	background: url(../images/burger.png) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 575px;
+	width: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 230px;
+	color: white;
+	font-size: 120px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	font-family: 'Caveat', cursive;
+	
+}
+
+.w {
+	padding-top: 100px;
+}
+.w p {
+	font-size: 25px;
+	font-family: 'Lobster', cursive;
+}
+/*_______________________*/
+.first {
+	margin-left: 10%;
+}
+.first img {
+	float:left;
+	margin-top: 4%;
+}
+.first p {
+  margin-top: 30%;
+  font-size: 140%;
+  letter-spacing: 3px;
+  text-align: justify;
+  width: 90%;
+}
+/*_______________________*/
+.second {
+	margin-left: 10%;
+}
+.second img {
+	float:left;
+	margin-top: 4%;
+}
+.second p {
+  margin-top: 15%;
+  font-size: 140%;
+  letter-spacing: 3px;
+  text-align: justify;
+  width: 70%;
+}
+/*_______________________*/
+#contact {
+	margin-top: 4%;
+	height: 225px;
+	background-color: #2d2d2d;
+}
+#contact h3{
+	letter-spacing: 1px;
+	color:#fff;
+	font-size: 150%;
+	text-align: left;
+	margin-left: 37%;
+	padding-top: 3%;
+}
+.contact-form input[type="email"] {
+	padding: 10px;
+	display: block;
+	width: 31.8%;
+	background:#2d2d2d;
+	font-size: 0.8125em;
+	float:left;
+	margin-left: 36%;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	border: 2px solid white;
+}
+.contact-form form input[type="submit"] 
+{
+	font-family: 'Lato', sans-serif;
+	color:#fff;
+	width: 31.8%;
+	padding: 10px;
+	background: #2d2d2d;
+	border: 2px solid white;
+	display: block;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	cursor: pointer;
+	font-size: 1em;
+	text-transform: uppercase;
+	float: left;
+	margin-top: 4.5%;
+	margin-left: -31.8%;
+}
+/*_______________________*/
+@media (max-width: 768px){
+	/*contact*/
+	#contact h3{
+	margin-left: 33%;
+	}
+	.contact-form form input[type="submit"] 
+	{
+		margin-top: 6%;
+		margin-left: -33%;
+		width: 33%;
+	}
+}
+@media (max-width: 425px){
+	#contact h3{
+		font-size: 120%;
+		margin-left: 22%;
+	}
+	.contact-form input[type="email"] {
+		width: 31%;
+		font-size: 0.6em;
+	}
+	.contact-form form input[type="submit"] 
+	{
+		
+		width: 36.8%;
+		font-size: 1em;
+		margin-top: 10%;
+		margin-left: -37%;
+	}
+}
+/*_______________________*/
+footer {
+   padding: 24px 0;
+}
+.foot {
+   margin-left: 6%;
+   font-size: 18px;
+   line-height: 10px;
+   color: #666d89;
+   text-align: center;
+}
